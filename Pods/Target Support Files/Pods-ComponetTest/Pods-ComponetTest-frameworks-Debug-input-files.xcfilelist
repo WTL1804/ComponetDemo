@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-ComponetTest/Pods-ComponetTest-frameworks.sh
+${BUILT_PRODUCTS_DIR}/WTLLogin/WTLLogin.framework
+${BUILT_PRODUCTS_DIR}/WTLNetWorking/WTLNetWorking.framework

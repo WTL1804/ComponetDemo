@@ -1,0 +1,22 @@
+PODS:
+  - WTLLogin (0.1.0):
+    - WTLNetWorking
+  - WTLNetWorking (0.1.0)
+
+DEPENDENCIES:
+  - WTLLogin (from `otherComponet/WTLLogin`)
+  - WTLNetWorking (from `otherComponet/WTLNetWorking`)
+
+EXTERNAL SOURCES:
+  WTLLogin:
+    :path: otherComponet/WTLLogin
+  WTLNetWorking:
+    :path: otherComponet/WTLNetWorking
+
+SPEC CHECKSUMS:
+  WTLLogin: 3ddada81dee160996bc9149e63dbd16e9535877e
+  WTLNetWorking: fce2e179122e1b387a50eb7a3f40b7d333a2d234
+
+PODFILE CHECKSUM: 3de424a034caaa371798942f05c9d2c444f3a390
+
+COCOAPODS: 1.10.1

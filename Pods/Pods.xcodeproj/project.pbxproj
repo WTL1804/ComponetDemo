@@ -1,0 +1,1211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1375D1DB75EF81367F8E6D5ED24F5FE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA6B460AF9B453F1E198D6FE4F73EA7 /* Foundation.framework */; };
+		2006C31894C8DC237F6450D949936F50 /* WTLNetWorking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9644926CEFE2898D680C570DDE8E8B97 /* WTLNetWorking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E2F3D11B86C4F31525283B5C67C1318 /* WTLLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = C434ED7DDD0581B5FA9B6E9C6608CD26 /* WTLLogin.m */; };
+		50068A545D5FD93F46DA9D01DCA4A364 /* WTLLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5326ABBAB663EBF9CD5DAC70FF44CD02 /* WTLLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		567C8F290B07388266E9D8DB2F1E97B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA6B460AF9B453F1E198D6FE4F73EA7 /* Foundation.framework */; };
+		5F5A498BACC3264171C31124F0722061 /* WTLNetWorking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3970242A3BC3027004DB3D8DDA61DA70 /* WTLNetWorking-dummy.m */; };
+		6A9CFB434360F99718FEA72EC1749162 /* WTLNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 341ADB4EB40FCD23B6D6F73797534624 /* WTLNetworking.m */; };
+		6D17C9C664B4547FB8EBC488734F1990 /* Pods-ComponetTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30E262261CCAE5A3D6DB3FF5A99A8E6C /* Pods-ComponetTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F0BD45E21CACBCA0F000D8D8312EADC /* Pods-ComponetTestTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC773C4F269A22BB84B021A7BF643E51 /* Pods-ComponetTestTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83A03C87F2C6719C5C9F4F0E92A30931 /* WTLNetWorking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F4F36C2ECC943F3AA587E39D32802DC /* WTLNetWorking.framework */; };
+		8C307147E40E0D58EB066B8B49C077BF /* Pods-ComponetTest-ComponetTestUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8400A0EDFAC909B90864F86384AA07F /* Pods-ComponetTest-ComponetTestUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A317535018EF4190C11C68E7C8C48672 /* WTLLogin.h in Headers */ = {isa = PBXBuildFile; fileRef = AD2F888982825511BF2C246C8B35DD2E /* WTLLogin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB0CBD27951223328A46154A83E2A607 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA6B460AF9B453F1E198D6FE4F73EA7 /* Foundation.framework */; };
+		BDBA5E86AF7F7EB37B389A24CDC02DEF /* Pods-ComponetTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC520C86569307D927EFE76B2328773 /* Pods-ComponetTest-dummy.m */; };
+		D272EE3B79365B8F31092898F82446EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA6B460AF9B453F1E198D6FE4F73EA7 /* Foundation.framework */; };
+		DC75465F70008E93AED388BA7A463269 /* WTLLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C99FBDA57D6D988E0C6EEA67A1AB28FB /* WTLLogin-dummy.m */; };
+		DEFC7156EC3C5D48534BE6707D1439A3 /* Pods-ComponetTestTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6353BB0D0C8957449CAB7D32979F93 /* Pods-ComponetTestTests-dummy.m */; };
+		E4D0713346B4FA7669AFFAD5780F2484 /* Pods-ComponetTest-ComponetTestUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 038040AFE60CFB2F8E57DBABF8AA4444 /* Pods-ComponetTest-ComponetTestUITests-dummy.m */; };
+		F64ACAED7A8F33E2106B004343C177DE /* WTLNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 7335B1839927A86CEA8F814A4341BFF7 /* WTLNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB10B43B27F34D01C5053AC01E32ABC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA6B460AF9B453F1E198D6FE4F73EA7 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D9713E76141960371BF084DFEE7BA28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFD29095BDD8FEBC7076E49081A8D0A4;
+			remoteInfo = WTLLogin;
+		};
+		1690B305C2006634BFC3D253C3413A49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94C52D0C6F1C7D9A64C1D500E4773446;
+			remoteInfo = WTLNetWorking;
+		};
+		54986C494F186A2BAB72A81A5A5D1974 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94C52D0C6F1C7D9A64C1D500E4773446;
+			remoteInfo = WTLNetWorking;
+		};
+		954CD453FB028950E52F8B30BBDFA5B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94C52D0C6F1C7D9A64C1D500E4773446;
+			remoteInfo = WTLNetWorking;
+		};
+		B502019563A7AC766AEB174E8C13C71A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B97286F0EEA2395B34C766EEF7F53983;
+			remoteInfo = "Pods-ComponetTest";
+		};
+		D6C3F7BCE04FA9A3A44FA1EFE9F63984 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFD29095BDD8FEBC7076E49081A8D0A4;
+			remoteInfo = WTLLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		038040AFE60CFB2F8E57DBABF8AA4444 /* Pods-ComponetTest-ComponetTestUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ComponetTest-ComponetTestUITests-dummy.m"; sourceTree = "<group>"; };
+		043A422A2926CAD6C321520E677A5E85 /* WTLLogin-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WTLLogin-prefix.pch"; sourceTree = "<group>"; };
+		07AE7B0B509E3B560D3539BB3EEDD8BB /* Pods-ComponetTestTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ComponetTestTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1132C74650E19F5137122E8E35D1C0F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		15C8543EFC8DDE165DC1E842E8E85E35 /* Pods-ComponetTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ComponetTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		1FD8D8FCD9E7510CE5D423ECFFB29E05 /* Pods_ComponetTest_ComponetTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ComponetTest_ComponetTestUITests.framework; path = "Pods-ComponetTest-ComponetTestUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21328BA38E8671C6A1441EF1B2EC67BA /* Pods-ComponetTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ComponetTest.modulemap"; sourceTree = "<group>"; };
+		244413EB6EBB9420DB1F502802D35B8A /* Pods-ComponetTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ComponetTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2B25744E532CFC373FBA4A111A2988F1 /* Pods-ComponetTest-ComponetTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ComponetTest-ComponetTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2F4F36C2ECC943F3AA587E39D32802DC /* WTLNetWorking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WTLNetWorking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3028E06D1397B4A3C41FC8EC077D45CA /* WTLLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WTLLogin.release.xcconfig; sourceTree = "<group>"; };
+		30E262261CCAE5A3D6DB3FF5A99A8E6C /* Pods-ComponetTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ComponetTest-umbrella.h"; sourceTree = "<group>"; };
+		341ADB4EB40FCD23B6D6F73797534624 /* WTLNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTLNetworking.m; path = WTLNetWorking/Classes/WTLNetworking.m; sourceTree = "<group>"; };
+		356DACF32F107DEA7A256303F977A048 /* Pods-ComponetTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ComponetTest.debug.xcconfig"; sourceTree = "<group>"; };
+		3970242A3BC3027004DB3D8DDA61DA70 /* WTLNetWorking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WTLNetWorking-dummy.m"; sourceTree = "<group>"; };
+		3A68FA77D69540450A80A76A938D5ED5 /* WTLNetWorking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WTLNetWorking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3FA6B460AF9B453F1E198D6FE4F73EA7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3FB401095113CDE7608BCD1256E2026C /* Pods-ComponetTestTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ComponetTestTests.modulemap"; sourceTree = "<group>"; };
+		41959D75B185589638C5DBF97B9F88C9 /* WTLNetWorking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WTLNetWorking-prefix.pch"; sourceTree = "<group>"; };
+		4383285ED1D08A2D07E73A7743D29491 /* Pods_ComponetTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ComponetTest.framework; path = "Pods-ComponetTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F870DFB8B3A24B283F0FB74EAD0DDB7 /* WTLNetWorking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WTLNetWorking-Info.plist"; sourceTree = "<group>"; };
+		5326ABBAB663EBF9CD5DAC70FF44CD02 /* WTLLogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WTLLogin-umbrella.h"; sourceTree = "<group>"; };
+		5597CC5ECA418703583012805C820D9D /* Pods-ComponetTest-ComponetTestUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ComponetTest-ComponetTestUITests-Info.plist"; sourceTree = "<group>"; };
+		55FE9F07E5F6CAF41A14759E6D4DF95E /* Pods-ComponetTest-ComponetTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ComponetTest-ComponetTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		57B64F8C79FC03689AEDF8808FF26416 /* WTLLogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WTLLogin.modulemap; sourceTree = "<group>"; };
+		6E46E34E9D55E26F66945735F9EADDA3 /* Pods-ComponetTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ComponetTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		711FE7609ED2D1782915AC1DF9780B43 /* WTLNetWorking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WTLNetWorking.debug.xcconfig; sourceTree = "<group>"; };
+		7335B1839927A86CEA8F814A4341BFF7 /* WTLNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTLNetworking.h; path = WTLNetWorking/Classes/WTLNetworking.h; sourceTree = "<group>"; };
+		80F1D3CF58872C619C4271EF94066DBA /* WTLNetWorking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WTLNetWorking.release.xcconfig; sourceTree = "<group>"; };
+		822C33159122D833F1C2E278A5F72C5B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		842488032387482E8AE25FB494FC5289 /* WTLNetWorking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WTLNetWorking.modulemap; sourceTree = "<group>"; };
+		86BD8FE1E22ED288787176256A032FDE /* Pods-ComponetTest-ComponetTestUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ComponetTest-ComponetTestUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8B1C35248A0DBCB8C9E5AC95758E12B0 /* Pods-ComponetTestTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ComponetTestTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8B884E63DFF99BDC318A9CA6D5902957 /* WTLLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WTLLogin.framework; path = WTLLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C088C398C95933FBD67EF6B245590F8 /* Pods-ComponetTestTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ComponetTestTests-Info.plist"; sourceTree = "<group>"; };
+		9644926CEFE2898D680C570DDE8E8B97 /* WTLNetWorking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WTLNetWorking-umbrella.h"; sourceTree = "<group>"; };
+		9774307CC8E9C4E329B670A44F8DE691 /* Pods-ComponetTest-ComponetTestUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ComponetTest-ComponetTestUITests.modulemap"; sourceTree = "<group>"; };
+		98B39D6FB376D943947E315DB594B5F3 /* Pods-ComponetTest-ComponetTestUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ComponetTest-ComponetTestUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9C04D249499B5BBDE9F4EC4C285C8607 /* Pods_ComponetTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ComponetTestTests.framework; path = "Pods-ComponetTestTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5CE6CE13C1373C97B018F6ED4E7E40 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A541C7E26BC11C6503F3818092CB3FA4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AAF4A7F4FDE2922909705032138FCE90 /* Pods-ComponetTest-ComponetTestUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ComponetTest-ComponetTestUITests-frameworks.sh"; sourceTree = "<group>"; };
+		AD2F888982825511BF2C246C8B35DD2E /* WTLLogin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTLLogin.h; path = WTLLogin/Classes/WTLLogin.h; sourceTree = "<group>"; };
+		B8400A0EDFAC909B90864F86384AA07F /* Pods-ComponetTest-ComponetTestUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ComponetTest-ComponetTestUITests-umbrella.h"; sourceTree = "<group>"; };
+		B96D75EC305CCBCB4C2D7337A57280DE /* Pods-ComponetTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ComponetTest-frameworks.sh"; sourceTree = "<group>"; };
+		BC773C4F269A22BB84B021A7BF643E51 /* Pods-ComponetTestTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ComponetTestTests-umbrella.h"; sourceTree = "<group>"; };
+		C434ED7DDD0581B5FA9B6E9C6608CD26 /* WTLLogin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WTLLogin.m; path = WTLLogin/Classes/WTLLogin.m; sourceTree = "<group>"; };
+		C65C6DB4E5208A346FE910E5C6469A39 /* Pods-ComponetTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ComponetTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		C99FBDA57D6D988E0C6EEA67A1AB28FB /* WTLLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WTLLogin-dummy.m"; sourceTree = "<group>"; };
+		CCC520C86569307D927EFE76B2328773 /* Pods-ComponetTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ComponetTest-dummy.m"; sourceTree = "<group>"; };
+		CF6353BB0D0C8957449CAB7D32979F93 /* Pods-ComponetTestTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ComponetTestTests-dummy.m"; sourceTree = "<group>"; };
+		D26F01163260797258978E8BF133D09A /* WTLLogin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WTLLogin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D68A7277474DA8C62E71CB97DD012381 /* Pods-ComponetTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ComponetTest-Info.plist"; sourceTree = "<group>"; };
+		EE7C96361E5BEDD7A14F35E85448670E /* WTLNetWorking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WTLNetWorking.framework; path = WTLNetWorking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7294BEF63AB6086FA7DB89E4470A39F /* WTLLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WTLLogin.debug.xcconfig; sourceTree = "<group>"; };
+		FBC7AF03AB8425C1FA81D2B611EB6D82 /* WTLLogin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WTLLogin-Info.plist"; sourceTree = "<group>"; };
+		FF64971B3E46665332311CBFD337A1F7 /* Pods-ComponetTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ComponetTest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FD3F357011BADD760C325B5BB04E861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0CBD27951223328A46154A83E2A607 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		328AB5520B5942CD6E7A19AF1E431E6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB10B43B27F34D01C5053AC01E32ABC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7752C14A3ECD27F74159688F62F536AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D272EE3B79365B8F31092898F82446EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD3313D4776A5D805E875A3D65EA1710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567C8F290B07388266E9D8DB2F1E97B4 /* Foundation.framework in Frameworks */,
+				83A03C87F2C6719C5C9F4F0E92A30931 /* WTLNetWorking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B65B169C8E15B0708CFFCD90FA5BE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1375D1DB75EF81367F8E6D5ED24F5FE6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00AFBD11ECA38207E0BA4141395B4247 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6720CB67EF85B1491AF6D6AEE3025F5 /* WTLLogin */,
+				875ED93C66AEC0A79609ED7EF33E204A /* WTLNetWorking */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		0C9DD5961FDA953E466993719738A1EE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A541C7E26BC11C6503F3818092CB3FA4 /* LICENSE */,
+				1132C74650E19F5137122E8E35D1C0F0 /* README.md */,
+				3A68FA77D69540450A80A76A938D5ED5 /* WTLNetWorking.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		19F910A9911F993F503EE67079CFBA1A /* Pods-ComponetTest */ = {
+			isa = PBXGroup;
+			children = (
+				21328BA38E8671C6A1441EF1B2EC67BA /* Pods-ComponetTest.modulemap */,
+				244413EB6EBB9420DB1F502802D35B8A /* Pods-ComponetTest-acknowledgements.markdown */,
+				15C8543EFC8DDE165DC1E842E8E85E35 /* Pods-ComponetTest-acknowledgements.plist */,
+				CCC520C86569307D927EFE76B2328773 /* Pods-ComponetTest-dummy.m */,
+				B96D75EC305CCBCB4C2D7337A57280DE /* Pods-ComponetTest-frameworks.sh */,
+				D68A7277474DA8C62E71CB97DD012381 /* Pods-ComponetTest-Info.plist */,
+				30E262261CCAE5A3D6DB3FF5A99A8E6C /* Pods-ComponetTest-umbrella.h */,
+				356DACF32F107DEA7A256303F977A048 /* Pods-ComponetTest.debug.xcconfig */,
+				FF64971B3E46665332311CBFD337A1F7 /* Pods-ComponetTest.release.xcconfig */,
+			);
+			name = "Pods-ComponetTest";
+			path = "Target Support Files/Pods-ComponetTest";
+			sourceTree = "<group>";
+		};
+		2016B6247EF022D2220D4E29DAE59EDA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				57B64F8C79FC03689AEDF8808FF26416 /* WTLLogin.modulemap */,
+				C99FBDA57D6D988E0C6EEA67A1AB28FB /* WTLLogin-dummy.m */,
+				FBC7AF03AB8425C1FA81D2B611EB6D82 /* WTLLogin-Info.plist */,
+				043A422A2926CAD6C321520E677A5E85 /* WTLLogin-prefix.pch */,
+				5326ABBAB663EBF9CD5DAC70FF44CD02 /* WTLLogin-umbrella.h */,
+				F7294BEF63AB6086FA7DB89E4470A39F /* WTLLogin.debug.xcconfig */,
+				3028E06D1397B4A3C41FC8EC077D45CA /* WTLLogin.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/WTLLogin";
+			sourceTree = "<group>";
+		};
+		475FEFDB0150D8CEA38709465051195D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F4F36C2ECC943F3AA587E39D32802DC /* WTLNetWorking.framework */,
+				9AA15ECEE1B6BF9AC1D17D5DAA9140E6 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		625E2724AC33014FA7ABEFA4831541BB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				842488032387482E8AE25FB494FC5289 /* WTLNetWorking.modulemap */,
+				3970242A3BC3027004DB3D8DDA61DA70 /* WTLNetWorking-dummy.m */,
+				4F870DFB8B3A24B283F0FB74EAD0DDB7 /* WTLNetWorking-Info.plist */,
+				41959D75B185589638C5DBF97B9F88C9 /* WTLNetWorking-prefix.pch */,
+				9644926CEFE2898D680C570DDE8E8B97 /* WTLNetWorking-umbrella.h */,
+				711FE7609ED2D1782915AC1DF9780B43 /* WTLNetWorking.debug.xcconfig */,
+				80F1D3CF58872C619C4271EF94066DBA /* WTLNetWorking.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/WTLNetWorking";
+			sourceTree = "<group>";
+		};
+		862C120B6E5B3E7EE4BBC25EB92139CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4383285ED1D08A2D07E73A7743D29491 /* Pods_ComponetTest.framework */,
+				1FD8D8FCD9E7510CE5D423ECFFB29E05 /* Pods_ComponetTest_ComponetTestUITests.framework */,
+				9C04D249499B5BBDE9F4EC4C285C8607 /* Pods_ComponetTestTests.framework */,
+				8B884E63DFF99BDC318A9CA6D5902957 /* WTLLogin.framework */,
+				EE7C96361E5BEDD7A14F35E85448670E /* WTLNetWorking.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		875ED93C66AEC0A79609ED7EF33E204A /* WTLNetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				7335B1839927A86CEA8F814A4341BFF7 /* WTLNetworking.h */,
+				341ADB4EB40FCD23B6D6F73797534624 /* WTLNetworking.m */,
+				0C9DD5961FDA953E466993719738A1EE /* Pod */,
+				625E2724AC33014FA7ABEFA4831541BB /* Support Files */,
+			);
+			name = WTLNetWorking;
+			path = ../otherComponet/WTLNetWorking;
+			sourceTree = "<group>";
+		};
+		9A9B264FD0F25870BDC274676D024BF6 /* Pods-ComponetTest-ComponetTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9774307CC8E9C4E329B670A44F8DE691 /* Pods-ComponetTest-ComponetTestUITests.modulemap */,
+				86BD8FE1E22ED288787176256A032FDE /* Pods-ComponetTest-ComponetTestUITests-acknowledgements.markdown */,
+				98B39D6FB376D943947E315DB594B5F3 /* Pods-ComponetTest-ComponetTestUITests-acknowledgements.plist */,
+				038040AFE60CFB2F8E57DBABF8AA4444 /* Pods-ComponetTest-ComponetTestUITests-dummy.m */,
+				AAF4A7F4FDE2922909705032138FCE90 /* Pods-ComponetTest-ComponetTestUITests-frameworks.sh */,
+				5597CC5ECA418703583012805C820D9D /* Pods-ComponetTest-ComponetTestUITests-Info.plist */,
+				B8400A0EDFAC909B90864F86384AA07F /* Pods-ComponetTest-ComponetTestUITests-umbrella.h */,
+				55FE9F07E5F6CAF41A14759E6D4DF95E /* Pods-ComponetTest-ComponetTestUITests.debug.xcconfig */,
+				2B25744E532CFC373FBA4A111A2988F1 /* Pods-ComponetTest-ComponetTestUITests.release.xcconfig */,
+			);
+			name = "Pods-ComponetTest-ComponetTestUITests";
+			path = "Target Support Files/Pods-ComponetTest-ComponetTestUITests";
+			sourceTree = "<group>";
+		};
+		9AA15ECEE1B6BF9AC1D17D5DAA9140E6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3FA6B460AF9B453F1E198D6FE4F73EA7 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A2A67745C54C2287566E3341BE4ED96C /* Pods-ComponetTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FB401095113CDE7608BCD1256E2026C /* Pods-ComponetTestTests.modulemap */,
+				8B1C35248A0DBCB8C9E5AC95758E12B0 /* Pods-ComponetTestTests-acknowledgements.markdown */,
+				07AE7B0B509E3B560D3539BB3EEDD8BB /* Pods-ComponetTestTests-acknowledgements.plist */,
+				CF6353BB0D0C8957449CAB7D32979F93 /* Pods-ComponetTestTests-dummy.m */,
+				8C088C398C95933FBD67EF6B245590F8 /* Pods-ComponetTestTests-Info.plist */,
+				BC773C4F269A22BB84B021A7BF643E51 /* Pods-ComponetTestTests-umbrella.h */,
+				6E46E34E9D55E26F66945735F9EADDA3 /* Pods-ComponetTestTests.debug.xcconfig */,
+				C65C6DB4E5208A346FE910E5C6469A39 /* Pods-ComponetTestTests.release.xcconfig */,
+			);
+			name = "Pods-ComponetTestTests";
+			path = "Target Support Files/Pods-ComponetTestTests";
+			sourceTree = "<group>";
+		};
+		A6720CB67EF85B1491AF6D6AEE3025F5 /* WTLLogin */ = {
+			isa = PBXGroup;
+			children = (
+				AD2F888982825511BF2C246C8B35DD2E /* WTLLogin.h */,
+				C434ED7DDD0581B5FA9B6E9C6608CD26 /* WTLLogin.m */,
+				AC22A423713529602D0310F61C59C3C6 /* Pod */,
+				2016B6247EF022D2220D4E29DAE59EDA /* Support Files */,
+			);
+			name = WTLLogin;
+			path = ../otherComponet/WTLLogin;
+			sourceTree = "<group>";
+		};
+		AC22A423713529602D0310F61C59C3C6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9C5CE6CE13C1373C97B018F6ED4E7E40 /* LICENSE */,
+				822C33159122D833F1C2E278A5F72C5B /* README.md */,
+				D26F01163260797258978E8BF133D09A /* WTLLogin.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CEC3B80936B4FD102D61D13A97847DCB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				19F910A9911F993F503EE67079CFBA1A /* Pods-ComponetTest */,
+				9A9B264FD0F25870BDC274676D024BF6 /* Pods-ComponetTest-ComponetTestUITests */,
+				A2A67745C54C2287566E3341BE4ED96C /* Pods-ComponetTestTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				00AFBD11ECA38207E0BA4141395B4247 /* Development Pods */,
+				475FEFDB0150D8CEA38709465051195D /* Frameworks */,
+				862C120B6E5B3E7EE4BBC25EB92139CB /* Products */,
+				CEC3B80936B4FD102D61D13A97847DCB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0DEC015FE926918A715DDFF98B486E15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2006C31894C8DC237F6450D949936F50 /* WTLNetWorking-umbrella.h in Headers */,
+				F64ACAED7A8F33E2106B004343C177DE /* WTLNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B26D3AE8BEB8A79A7A96742C1ED2444 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C307147E40E0D58EB066B8B49C077BF /* Pods-ComponetTest-ComponetTestUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A9A06BA916A8EC03E749181AB6EA4DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D17C9C664B4547FB8EBC488734F1990 /* Pods-ComponetTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81AF5E98BCDA7265F06689A5D7FEC975 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50068A545D5FD93F46DA9D01DCA4A364 /* WTLLogin-umbrella.h in Headers */,
+				A317535018EF4190C11C68E7C8C48672 /* WTLLogin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C74590F2033A51117C4F71A5E35F5F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F0BD45E21CACBCA0F000D8D8312EADC /* Pods-ComponetTestTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5AB5435FB1F8D676BF34D6991397DBCC /* Pods-ComponetTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87CB5F504F327D191BC72F2BCF5F06BD /* Build configuration list for PBXNativeTarget "Pods-ComponetTestTests" */;
+			buildPhases = (
+				E4C74590F2033A51117C4F71A5E35F5F /* Headers */,
+				F07376E5B163696E9EE1A473C4E53FE1 /* Sources */,
+				7752C14A3ECD27F74159688F62F536AD /* Frameworks */,
+				D609C70ACE2DE64E75255F5A08C305DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E53DF5CA50F03F7E764E8E6E0BB8E1EF /* PBXTargetDependency */,
+			);
+			name = "Pods-ComponetTestTests";
+			productName = "Pods-ComponetTestTests";
+			productReference = 9C04D249499B5BBDE9F4EC4C285C8607 /* Pods_ComponetTestTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8A9A26070E2B8A14EB9FC06C3A60F6D1 /* Pods-ComponetTest-ComponetTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A0AA846F0C5183B3BB821FDEFE4325D /* Build configuration list for PBXNativeTarget "Pods-ComponetTest-ComponetTestUITests" */;
+			buildPhases = (
+				5B26D3AE8BEB8A79A7A96742C1ED2444 /* Headers */,
+				82F0B70A737906CCDEB754EF218A1781 /* Sources */,
+				B6B65B169C8E15B0708CFFCD90FA5BE1 /* Frameworks */,
+				B28FC304F4CD6537605FF7B288C4A75C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				025C840563141809CC3F17AA3B1C7B97 /* PBXTargetDependency */,
+				3CFDCEC07576667A08B0D2316CFA470D /* PBXTargetDependency */,
+			);
+			name = "Pods-ComponetTest-ComponetTestUITests";
+			productName = "Pods-ComponetTest-ComponetTestUITests";
+			productReference = 1FD8D8FCD9E7510CE5D423ECFFB29E05 /* Pods_ComponetTest_ComponetTestUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		94C52D0C6F1C7D9A64C1D500E4773446 /* WTLNetWorking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D472FC8C73B3F48AEA07F91219D11FA /* Build configuration list for PBXNativeTarget "WTLNetWorking" */;
+			buildPhases = (
+				0DEC015FE926918A715DDFF98B486E15 /* Headers */,
+				3C1D3F5D0FAC17CF529E995CF55BB51B /* Sources */,
+				328AB5520B5942CD6E7A19AF1E431E6A /* Frameworks */,
+				451723E53CD97116DFFAC08AFBD3C919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WTLNetWorking;
+			productName = WTLNetWorking;
+			productReference = EE7C96361E5BEDD7A14F35E85448670E /* WTLNetWorking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B97286F0EEA2395B34C766EEF7F53983 /* Pods-ComponetTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AA0CBAE61BA16FF11F78917FDC862EE /* Build configuration list for PBXNativeTarget "Pods-ComponetTest" */;
+			buildPhases = (
+				6A9A06BA916A8EC03E749181AB6EA4DA /* Headers */,
+				9B35E45A62C282743078C5A4B4E7F6D0 /* Sources */,
+				2FD3F357011BADD760C325B5BB04E861 /* Frameworks */,
+				247DD5A0CE0B3F902B7B6B9FC68479F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A299AEE1BE242828CBCD7DAD97D5EF4 /* PBXTargetDependency */,
+				EA2F383C7F0F5CD90535CDF7BBD938B2 /* PBXTargetDependency */,
+			);
+			name = "Pods-ComponetTest";
+			productName = "Pods-ComponetTest";
+			productReference = 4383285ED1D08A2D07E73A7743D29491 /* Pods_ComponetTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BFD29095BDD8FEBC7076E49081A8D0A4 /* WTLLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89A9E88528393C7124BEE00349784D43 /* Build configuration list for PBXNativeTarget "WTLLogin" */;
+			buildPhases = (
+				81AF5E98BCDA7265F06689A5D7FEC975 /* Headers */,
+				6BD7EE0291514FD437F40E3AF0D5EAE3 /* Sources */,
+				AD3313D4776A5D805E875A3D65EA1710 /* Frameworks */,
+				039983C979366080DD041AD1E9E07E75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4109833F2DEB61BFD17249C06E419605 /* PBXTargetDependency */,
+			);
+			name = WTLLogin;
+			productName = WTLLogin;
+			productReference = 8B884E63DFF99BDC318A9CA6D5902957 /* WTLLogin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 862C120B6E5B3E7EE4BBC25EB92139CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B97286F0EEA2395B34C766EEF7F53983 /* Pods-ComponetTest */,
+				8A9A26070E2B8A14EB9FC06C3A60F6D1 /* Pods-ComponetTest-ComponetTestUITests */,
+				5AB5435FB1F8D676BF34D6991397DBCC /* Pods-ComponetTestTests */,
+				BFD29095BDD8FEBC7076E49081A8D0A4 /* WTLLogin */,
+				94C52D0C6F1C7D9A64C1D500E4773446 /* WTLNetWorking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		039983C979366080DD041AD1E9E07E75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		247DD5A0CE0B3F902B7B6B9FC68479F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451723E53CD97116DFFAC08AFBD3C919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B28FC304F4CD6537605FF7B288C4A75C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D609C70ACE2DE64E75255F5A08C305DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C1D3F5D0FAC17CF529E995CF55BB51B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F5A498BACC3264171C31124F0722061 /* WTLNetWorking-dummy.m in Sources */,
+				6A9CFB434360F99718FEA72EC1749162 /* WTLNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BD7EE0291514FD437F40E3AF0D5EAE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC75465F70008E93AED388BA7A463269 /* WTLLogin-dummy.m in Sources */,
+				3E2F3D11B86C4F31525283B5C67C1318 /* WTLLogin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F0B70A737906CCDEB754EF218A1781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D0713346B4FA7669AFFAD5780F2484 /* Pods-ComponetTest-ComponetTestUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B35E45A62C282743078C5A4B4E7F6D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDBA5E86AF7F7EB37B389A24CDC02DEF /* Pods-ComponetTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07376E5B163696E9EE1A473C4E53FE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEFC7156EC3C5D48534BE6707D1439A3 /* Pods-ComponetTestTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		025C840563141809CC3F17AA3B1C7B97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WTLLogin;
+			target = BFD29095BDD8FEBC7076E49081A8D0A4 /* WTLLogin */;
+			targetProxy = 0D9713E76141960371BF084DFEE7BA28 /* PBXContainerItemProxy */;
+		};
+		3CFDCEC07576667A08B0D2316CFA470D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WTLNetWorking;
+			target = 94C52D0C6F1C7D9A64C1D500E4773446 /* WTLNetWorking */;
+			targetProxy = 1690B305C2006634BFC3D253C3413A49 /* PBXContainerItemProxy */;
+		};
+		4109833F2DEB61BFD17249C06E419605 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WTLNetWorking;
+			target = 94C52D0C6F1C7D9A64C1D500E4773446 /* WTLNetWorking */;
+			targetProxy = 954CD453FB028950E52F8B30BBDFA5B6 /* PBXContainerItemProxy */;
+		};
+		7A299AEE1BE242828CBCD7DAD97D5EF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WTLLogin;
+			target = BFD29095BDD8FEBC7076E49081A8D0A4 /* WTLLogin */;
+			targetProxy = D6C3F7BCE04FA9A3A44FA1EFE9F63984 /* PBXContainerItemProxy */;
+		};
+		E53DF5CA50F03F7E764E8E6E0BB8E1EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ComponetTest";
+			target = B97286F0EEA2395B34C766EEF7F53983 /* Pods-ComponetTest */;
+			targetProxy = B502019563A7AC766AEB174E8C13C71A /* PBXContainerItemProxy */;
+		};
+		EA2F383C7F0F5CD90535CDF7BBD938B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WTLNetWorking;
+			target = 94C52D0C6F1C7D9A64C1D500E4773446 /* WTLNetWorking */;
+			targetProxy = 54986C494F186A2BAB72A81A5A5D1974 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AB2BB6AEA849E3E896879F43874A323 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E46E34E9D55E26F66945735F9EADDA3 /* Pods-ComponetTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ComponetTestTests/Pods-ComponetTestTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ComponetTestTests/Pods-ComponetTestTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		336382D5A1B6724B90AB5C93C1B344D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80F1D3CF58872C619C4271EF94066DBA /* WTLNetWorking.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WTLNetWorking/WTLNetWorking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WTLNetWorking/WTLNetWorking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WTLNetWorking/WTLNetWorking.modulemap";
+				PRODUCT_MODULE_NAME = WTLNetWorking;
+				PRODUCT_NAME = WTLNetWorking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B40F48606CC9A49733199DD2D79385F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 711FE7609ED2D1782915AC1DF9780B43 /* WTLNetWorking.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WTLNetWorking/WTLNetWorking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WTLNetWorking/WTLNetWorking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WTLNetWorking/WTLNetWorking.modulemap";
+				PRODUCT_MODULE_NAME = WTLNetWorking;
+				PRODUCT_NAME = WTLNetWorking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		71A878F76A736368B30A24F8AA290BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF64971B3E46665332311CBFD337A1F7 /* Pods-ComponetTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ComponetTest/Pods-ComponetTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ComponetTest/Pods-ComponetTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		831FE7A95DFF51BA7BD042C2FA27F204 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B25744E532CFC373FBA4A111A2988F1 /* Pods-ComponetTest-ComponetTestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ComponetTest-ComponetTestUITests/Pods-ComponetTest-ComponetTestUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ComponetTest-ComponetTestUITests/Pods-ComponetTest-ComponetTestUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A05F72EE58326ABC9B3B1F7DED1385BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7294BEF63AB6086FA7DB89E4470A39F /* WTLLogin.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WTLLogin/WTLLogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WTLLogin/WTLLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WTLLogin/WTLLogin.modulemap";
+				PRODUCT_MODULE_NAME = WTLLogin;
+				PRODUCT_NAME = WTLLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A792E9C262003608BD4FBDB6CE2CFF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C65C6DB4E5208A346FE910E5C6469A39 /* Pods-ComponetTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ComponetTestTests/Pods-ComponetTestTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ComponetTestTests/Pods-ComponetTestTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE5A819DA7A0BBA7FA5D4FEF779D7A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55FE9F07E5F6CAF41A14759E6D4DF95E /* Pods-ComponetTest-ComponetTestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ComponetTest-ComponetTestUITests/Pods-ComponetTest-ComponetTestUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ComponetTest-ComponetTestUITests/Pods-ComponetTest-ComponetTestUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED07F632B8EC1362FFE6F4E7AD862BE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 356DACF32F107DEA7A256303F977A048 /* Pods-ComponetTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ComponetTest/Pods-ComponetTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ComponetTest/Pods-ComponetTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF25E832082A8F301A2E313AF9EBA747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3028E06D1397B4A3C41FC8EC077D45CA /* WTLLogin.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WTLLogin/WTLLogin-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WTLLogin/WTLLogin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WTLLogin/WTLLogin.modulemap";
+				PRODUCT_MODULE_NAME = WTLLogin;
+				PRODUCT_NAME = WTLLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A0AA846F0C5183B3BB821FDEFE4325D /* Build configuration list for PBXNativeTarget "Pods-ComponetTest-ComponetTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5A819DA7A0BBA7FA5D4FEF779D7A6C /* Debug */,
+				831FE7A95DFF51BA7BD042C2FA27F204 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87CB5F504F327D191BC72F2BCF5F06BD /* Build configuration list for PBXNativeTarget "Pods-ComponetTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB2BB6AEA849E3E896879F43874A323 /* Debug */,
+				A792E9C262003608BD4FBDB6CE2CFF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89A9E88528393C7124BEE00349784D43 /* Build configuration list for PBXNativeTarget "WTLLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05F72EE58326ABC9B3B1F7DED1385BB /* Debug */,
+				EF25E832082A8F301A2E313AF9EBA747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AA0CBAE61BA16FF11F78917FDC862EE /* Build configuration list for PBXNativeTarget "Pods-ComponetTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED07F632B8EC1362FFE6F4E7AD862BE4 /* Debug */,
+				71A878F76A736368B30A24F8AA290BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D472FC8C73B3F48AEA07F91219D11FA /* Build configuration list for PBXNativeTarget "WTLNetWorking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B40F48606CC9A49733199DD2D79385F /* Debug */,
+				336382D5A1B6724B90AB5C93C1B344D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
